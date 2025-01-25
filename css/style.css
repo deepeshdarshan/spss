@@ -235,6 +235,12 @@ h6,
     transition: .5s;
 }
 
+.testimonial-carousel-white .owl-nav .owl-prev,
+.testimonial-carousel-white .owl-nav .owl-next{
+    color: var(--primary);
+    background: #FFFFFF;
+
+
 .testimonial-carousel .owl-nav .owl-prev:hover,
 .testimonial-carousel .owl-nav .owl-next:hover {
     color: var(--dark);
