@@ -207,7 +207,7 @@ h6,
     background: var(--primary);
     font-size: 22px;
     border-radius: 45px;
-    transition: .5s;
+    transition: .25s;
 }
 
 .testimonial-carousel-white .owl-nav .owl-prev,
