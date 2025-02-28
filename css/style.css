@@ -188,6 +188,14 @@ h6,
     left: 0;
 }
 
+.team-item-text {
+    bottom: 0;
+    max-width: 360px;
+    width: 367px;
+    height: 30%;
+    opacity: 75%;
+}
+
 .testimonial-carousel .owl-nav {
     margin-top: 30px;
     display: flex;
