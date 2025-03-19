@@ -2,7 +2,7 @@ const navbarHTML = `
 <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-1 py-3 py-lg-0">
     <a href="index.html" class="navbar-brand p-0">
         <h1 class="m-0 text-uppercase text-primary">
-            <img src="img/logo.png"><img src="img/title.png">
+            <img src="img/title.png" style="width: 80%">
         </h1>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -17,6 +17,7 @@ const navbarHTML = `
                 <div class="dropdown-menu m-0">
                     <a href="reels.html" class="dropdown-item">റീൽസ് മത്സരം</a>
                     <a href="orgcomfly.html" class="dropdown-item">സ്വാഗതസംഘ രൂപീകരണം</a>
+                    <a href="naming_contest.html" class="dropdown-item">നാമനിർദ്ദേശ മത്സരം</a>
                 </div>
             </div>
             <a href="location.html" class="nav-item nav-link">Location</a>
