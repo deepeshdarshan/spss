@@ -20,7 +20,7 @@ const navbarHTML = `
                     <a href="naming_contest.html" class="dropdown-item">നാമനിർദ്ദേശ മത്സരം</a>
                 </div>
             </div>
-            <a href="location.html" class="nav-item nav-link">Location</a>
+            <a href="location.html" class="nav-item nav-link">Venue</a>
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Gallery</a>
                 <div class="dropdown-menu m-0">
