@@ -1,7 +1,7 @@
 const navbarHTML = `
 <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-1 py-3 py-lg-0">
-    <a href="index.html" class="navbar-brand p-0">
-        <h1 class="m-0 text-uppercase text-primary">
+    <a href="index.html" class="navbar-brand p-0 mr-0-i">
+        <h1 class="m-0 text-uppercase text-primary d-flex justify-content-center">
             <img src="img/title.png" style="width: 80%">
         </h1>
     </a>
@@ -37,7 +37,7 @@ const navbarHTML = `
 const footerHTML = `
 <div class="container-fluid bg-dark text-secondary p-5">
         <div class="row g-5">
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-3 col-md-6">
                 <h3 class="text-white mb-4">Quick Links</h3>
                 <div class="d-flex flex-column justify-content-start">
                     <a class="text-secondary mb-2" href="index.html"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
@@ -47,28 +47,33 @@ const footerHTML = `
                     <a class="text-secondary" href="contact.html"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-3 col-md-6">
+                <h3 class="text-white mb-4">Favourite Links</h3>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-secondary mb-2" href="orgcom.html"><i class="bi bi-arrow-right text-primary me-2"></i>സ്വാഗതസംഘ രൂപീകരണം ഫോട്ടോസ്</a>
+                    <a class="text-secondary mb-2" href="reels.html"><i class="bi bi-arrow-right text-primary me-2"></i>റീൽസ് മത്സരം</a>
+                    <a class="text-secondary mb-2" href="naming_contest.html"><i class="bi bi-arrow-right text-primary me-2"></i>നാമനിർദ്ദേശ മത്സരം</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
                 <h3 class="text-white mb-4">Get In Touch</h3>
                 <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>SPSS EKM Jilla Committe</p>
                 <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>yuvavedi.ekm@gmail.com</p>
                 <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+91-00000 00000</p>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-3 col-md-6">
                 <h3 class="text-white mb-4">Follow Us</h3>
                 <div class="d-flex">
                     <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2"
                         href="https://www.youtube.com/@YuvavediErnakulam" target="_blank"><i class="fab fa-youtube fw-normal"></i></a>
-                    <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
-                    <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
-                    <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="https://www.facebook.com/groups/224314291078396" target="_blank"><i class="fab fa-facebook-f fw-normal"></i></a>
                 </div>
             </div>
         </div>
     </div>
     <div class="container-fluid bg-dark text-secondary text-center border-top py-4 px-5"
         style="border-color: rgba(256, 256, 256, .1) !important;">
-        <p class="m-0">&copy; <a class="text-secondary border-bottom" href="#">Your Site Name</a>. All Rights Reserved.
-            Designed by <a class="text-secondary border-bottom" href="https://htmlcodex.com">HTML Codex</a></p>
+        <p class="m-0">&copy; <a class="text-secondary border-bottom" href="#">Pushpakaayanam 2025</a>. All Rights Reserved.
     </div>
 `;
 
