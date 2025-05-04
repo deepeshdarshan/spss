@@ -3,7 +3,7 @@ const topbarHTML = `
             <div class="row gx-0">
                 <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
                     <div class="d-inline-flex align-items-center">
-                        <a class="text-body py-2 pe-3 border-end" href="yuvavedi/index.html"><small>Yuvavedi</small></a>
+                        <a class="text-body py-2 pe-3 border-end" href="../index.html"><small>Pushpakayanam</small></a>
                     </div>
                 </div>
                 <div class="col-md-6 text-center text-lg-end">
@@ -13,7 +13,7 @@ const topbarHTML = `
                             <p class="m-0"><i class="fa fa-envelope-open me-2"></i>yuvavedi.ekm@gmail.com</p>
                         </div>
                         <div class="py-2">
-                            <p class="m-0"><i class="fa fa-phone-alt me-2"></i>+91-00000 00000</p>
+                            <p class="m-0"><i class="fa fa-phone-alt me-2"></i>+91-00000 00000</span></p>
                         </div>
                     </div>
                 </div>
@@ -24,8 +24,8 @@ const topbarHTML = `
 const navbarHTML = `
 <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-1 py-3 py-lg-0">
     <a href="index.html" class="navbar-brand p-0 mr-0-i">
-        <h1 class="m-0 text-uppercase text-primary d-flex justify-content-center">
-            <img src="img/title.png" style="width: 80%">
+        <h1 class="m-0 text-uppercase text-primary d-flex">
+            <img src="img/logo.png" style="width: 45%">
         </h1>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -34,23 +34,18 @@ const navbarHTML = `
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto py-0 me-n3">
             <a href="index.html" class="nav-item nav-link active">Home</a>
-            <a href="program.html" class="nav-item nav-link">Programs</a>
             <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Announcements</a>
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Programs</a>
                 <div class="dropdown-menu m-0">
-                    <a href="reels.html" class="dropdown-item">റീൽസ് മത്സരം</a>
-                    <a href="orgcomfly.html" class="dropdown-item">സ്വാഗതസംഘ രൂപീകരണം</a>
-                    <a href="naming_contest.html" class="dropdown-item">നാമനിർദ്ദേശ മത്സരം</a>
+                    <a href="puple2025report.html" class="dropdown-item">PUPLE 2025</a>
                 </div>
             </div>
-            <a href="location.html" class="nav-item nav-link">Venue</a>
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Gallery</a>
                 <div class="dropdown-menu m-0">
-                    <a href="orgcom.html" class="dropdown-item">സ്വാഗതസംഘം രൂപീകരണം</a>
+                    <a href="puple2025.html" class="dropdown-item">PUPLE 2025</a>
                 </div>
             </div>
-            <a href="team.html" class="nav-item nav-link">Our Team</a>
             <a href="contact.html" class="nav-item nav-link">Contact Us</a>
         </div>
     </div>
@@ -64,18 +59,16 @@ const footerHTML = `
                 <h3 class="text-white mb-4">Quick Links</h3>
                 <div class="d-flex flex-column justify-content-start">
                     <a class="text-secondary mb-2" href="index.html"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                    <a class="text-secondary mb-2" href="team.html"><i class="bi bi-arrow-right text-primary me-2"></i>Our team</a>
-                    <a class="text-secondary mb-2" href="program.html"><i class="bi bi-arrow-right text-primary me-2"></i>Programs</a>
-                    <a class="text-secondary mb-2" href="location.html"><i class="bi bi-arrow-right text-primary me-2"></i>How to reach</a>
+                    <a class="text-secondary mb-2" href="program.html"><i class="bi bi-arrow-right text-primary me-2"></i>PUPLE 2025</a>
                     <a class="text-secondary" href="contact.html"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h3 class="text-white mb-4">Favourite Links</h3>
                 <div class="d-flex flex-column justify-content-start">
-                    <a class="text-secondary mb-2" href="orgcom.html"><i class="bi bi-arrow-right text-primary me-2"></i>സ്വാഗതസംഘ രൂപീകരണം ഫോട്ടോസ്</a>
-                    <a class="text-secondary mb-2" href="reels.html"><i class="bi bi-arrow-right text-primary me-2"></i>റീൽസ് മത്സരം</a>
-                    <a class="text-secondary mb-2" href="naming_contest.html"><i class="bi bi-arrow-right text-primary me-2"></i>നാമനിർദ്ദേശ മത്സരം</a>
+                    <a class="text-secondary mb-2" href="index.html"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                    <a class="text-secondary mb-2" href="program.html"><i class="bi bi-arrow-right text-primary me-2"></i>Programs</a>
+                    <a class="text-secondary" href="contact.html"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
@@ -96,7 +89,7 @@ const footerHTML = `
     </div>
     <div class="container-fluid bg-dark text-secondary text-center border-top py-4 px-5"
         style="border-color: rgba(256, 256, 256, .1) !important;">
-        <p class="m-0">&copy; <a class="text-secondary border-bottom" href="#">Pushpakaayanam 2025</a>. All Rights Reserved.
+        <p class="m-0">&copy; <a class="text-secondary border-bottom" href="#">Ernakulam Jilla Yuvavedi 2024-2026</a>. All Rights Reserved.
     </div>
 `;
 

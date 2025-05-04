@@ -282,3 +282,7 @@ h6,
 .bg-gradient-1 {
     background-image: linear-gradient(to right top, #fbfbfb, #fff3fe, #ffeaec, #ffe8ca, #fbf0b1);
 }
+
+.w-98c {
+    width: 98% !important;
+}
