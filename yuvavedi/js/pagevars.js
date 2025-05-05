@@ -64,11 +64,9 @@ const footerHTML = `
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
-                <h3 class="text-white mb-4">Favourite Links</h3>
+                <h3 class="text-white mb-4">External Links</h3>
                 <div class="d-flex flex-column justify-content-start">
-                    <a class="text-secondary mb-2" href="index.html"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                    <a class="text-secondary mb-2" href="program.html"><i class="bi bi-arrow-right text-primary me-2"></i>Programs</a>
-                    <a class="text-secondary" href="contact.html"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                    <a class="text-secondary mb-2" href="../index.html"><i class="bi bi-arrow-right text-primary me-2"></i>Pushpakayanam</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">

@@ -60,7 +60,7 @@ const navbarHTML = `
 const footerHTML = `
 <div class="container-fluid bg-dark text-secondary p-5">
         <div class="row g-5">
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-2 col-md-6">
                 <h3 class="text-white mb-4">Quick Links</h3>
                 <div class="d-flex flex-column justify-content-start">
                     <a class="text-secondary mb-2" href="index.html"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
@@ -70,7 +70,7 @@ const footerHTML = `
                     <a class="text-secondary" href="contact.html"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-2 col-md-6">
                 <h3 class="text-white mb-4">Favourite Links</h3>
                 <div class="d-flex flex-column justify-content-start">
                     <a class="text-secondary mb-2" href="orgcom.html"><i class="bi bi-arrow-right text-primary me-2"></i>സ്വാഗതസംഘ രൂപീകരണം ഫോട്ടോസ്</a>
@@ -78,13 +78,19 @@ const footerHTML = `
                     <a class="text-secondary mb-2" href="naming_contest.html"><i class="bi bi-arrow-right text-primary me-2"></i>നാമനിർദ്ദേശ മത്സരം</a>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-2 col-md-6">
+                <h3 class="text-white mb-4">External Links</h3>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-secondary mb-2" href="yuvavedi/index.html"><i class="bi bi-arrow-right text-primary me-2"></i>Yuvavedi</a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6">
                 <h3 class="text-white mb-4">Get In Touch</h3>
                 <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>SPSS EKM Jilla Committe</p>
                 <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>yuvavedi.ekm@gmail.com</p>
                 <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+91-00000 00000</p>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-2 col-md-6">
                 <h3 class="text-white mb-4">Follow Us</h3>
                 <div class="d-flex">
                     <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2"
