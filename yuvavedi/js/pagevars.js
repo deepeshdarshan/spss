@@ -38,15 +38,17 @@ const navbarHTML = `
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Programs</a>
                 <div class="dropdown-menu m-0">
                     <a href="puple2025report.html" class="dropdown-item">PUPLE 2025</a>
+                    <a href="vivekanandam2025report.html" class="dropdown-item">വിവേകാനന്ദം 2025</a>
                 </div>
             </div>
+            <a href="minutes.html" class="nav-item nav-link active">Meeting Minutes</a>
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Gallery</a>
                 <div class="dropdown-menu m-0">
                     <a href="puple2025.html" class="dropdown-item">PUPLE 2025</a>
                 </div>
             </div>
-            <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+            <a href="../contact.html" class="nav-item nav-link">Contact Us</a>
         </div>
     </div>
 </nav>
